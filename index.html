@@ -12,6 +12,21 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,15 +41,75 @@
       .main-title {
         font-size: 50px;
       }
+      .bl-bg {
+        background-color: #0083cb;
+      }
     </style>
   </head>
   <body>
-    <section class="bg-primary bg-gradient d-flex vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bl-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-4" href="index.html">
+            <img
+              src="https://i.lensdump.com/i/RmrMa2.jpeg"
+              alt="Logo"
+              width=""
+              height="60"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase text-light fw-bolder"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase text-light" href="#"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase text-light"
+                  href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase text-light"
+                  href="#"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="bl-bg d-flex vh-100">
       <div class="container-fluid text-white text-center">
         <h1 class="fw-bold pt-5 pb-3 main-title">Dell XPS 15</h1>
         <h3 class="pb-5">Power to do more</h3>
         <img
-        class="img-fluid"
+          class="img-fluid"
           src="https://i2.lensdump.com/i/Rmr8V9.png"
           alt="Rmr8V9.png"
           border="0"
