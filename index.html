@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Dell XPS 15" />
+    <meta
+      name="description"
+      content="The webpage showcases the features and specifications of the Dell XPS 15. This laptop is one of the most top-rated laptops of Dell."
+    />
+    <meta
+      name="keywords"
+      content="Dell, XPS 15, Dell XPS 15, laptop, sleek, power, innovative, performance, top rated, Intel, Intel Core, 12th Gen, Windows 11"
+    />
     <title>Dell XPS 15</title>
     <!-- Boostrap CSS -->
     <link
@@ -37,6 +46,7 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <!-- swiffy slider -->
     <link
       href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
       rel="stylesheet"
@@ -82,56 +92,56 @@
     </style>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bl-bg">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-4" href="index.html">
-            <img
-              src="https://images2.imgbox.com/a7/88/objW4fs2_o.jpeg"
-              alt="image host"
-              height="60"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-            aria-controls="navbarMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bl-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4" href="index.html">
+          <img
+            src="https://images2.imgbox.com/a7/88/objW4fs2_o.jpeg"
+            alt="image host"
+            height="60"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-light fw-bolder" href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-light" href="#features"
-                  >Features</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-light" href="#specs"
-                  >Specifications</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase text-light" href="#reviews"
-                  >Reviews</a
-                >
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light fw-bolder" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#specs"
+                >Specifications</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-light" href="#reviews"
+                >Reviews</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    <section class="bl-bg d-flex">
+      </div>
+    </nav>
+    <!-- Banner -->
+    <header class="bl-bg d-flex">
       <div class="container-fluid text-white text-start mb-5">
         <div class="container">
           <div class="row">
@@ -250,7 +260,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </header>
     <section>
       <div
         class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-64x9 bg-white shadow-lg py-3 py-lg-4"
@@ -347,6 +357,7 @@
         ></button>
       </div>
     </section>
+    <!-- Processor Section -->
     <section>
       <div class="container-fluid text-center text-white bg-intel">
         <div
@@ -1001,6 +1012,7 @@
         </div>
       </div>
     </section>
+    <!-- Reviews -->
     <section id="reviews">
       <div class="container-fluid py-5 bg-reviews">
         <h2 class="text-center fs-1 pt-0">Reviews</h2>
@@ -1042,6 +1054,7 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
     <footer class="bl-bg d-flex">
       <div class="container text-white text-center mb-2 mt-3">
         <img
@@ -1059,8 +1072,9 @@
         </p>
       </div>
     </footer>
-    <!-- AOS js -->
+    <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Initialize AOS -->
     <script>
       AOS.init();
     </script>
